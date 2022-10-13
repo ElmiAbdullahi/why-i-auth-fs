@@ -14,8 +14,6 @@ if (!user) {
 //       redirect code: location.replace(`/auth/?redirectUrl=${encodeURIComponent(location)}`);
 
 // > Part B: attach event listener to signOutLink that calls signOutUser
-let error = null;
-let profile = null;
 
 signOutLink.addEventListener('click', async () => {
     await signOutUser();

@@ -3,7 +3,7 @@
 import './auth/user.js';
 
 /* Get DOM Elements */
-const signOutBtn = document.getElementById('sign-out-link');
+// const signOutBtn = document.getElementById('sign-out-link');
 
 /* State */
 
